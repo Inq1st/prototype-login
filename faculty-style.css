@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C5B62;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(241, 230, 215);
+    background-size: cover;
+    background-position: center;
+}
+
+#home-image {
+    position: static;
+    width: 100px;
+    height: 45px;
+}
+
+.logout-home {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.logout-home a {
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-bottom: 2px solid #0C5B62;
+    transition: 0.3s;
+}
+
+.logout-home a:hover {
+    border-bottom: 2px solid white;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    flex-direction: row;
+    margin: 0 25px;
+    bottom: 170px;
+    
+}
+
+.faculty-info {
+    background-color: white;
+    width: 300px;
+    height: 380px;
+    border: 2px solid #0C5B62;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black
+}
+
+#faculty-image {
+    margin: 10px;
+    width: 93%;
+    align-items: center;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #0C5B62;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
+
+.subjects { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%; 
+    height: auto; 
+    background-color: white;
+    border: 2px solid #0C5B62;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px black;
+
+}
+
+.list-subjects {
+    list-style: none;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px; 
+    width: 100%;
+
+}
+
+.list-subjects div {
+    display: flex;
+    border: 2px solid #0C5B62;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px black;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-subjects div h2 {
+    position: relative;
+    bottom: 40px;
+}

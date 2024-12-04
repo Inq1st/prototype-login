@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Assets/images/SJIT-annex-building.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C5B62;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: white
+}
+
+#sjit-logo {
+    width: 100px;
+    height: 45px;
+}
+
+.login-form {
+    background: transparent;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form h2 {
+    position: relative;
+    text-align: center;
+    font-size: 2.5rem;
+    bottom: 20px;
+
+    
+}
+
+.login-form .input-box {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid;
+    margin: 30px 0;
+}
+
+.login-form label {
+    position: relative;
+    right: 1px;
+    font-size: 1rem;
+    top: 1px;
+    font-weight: 1000;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.login-form input {
+    position: relative;
+    border: none;
+    background: transparent;
+    top: 30px;
+    font-size: 1.5rem;
+    width: 250px;
+    z-index: 2;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center;
+}
+
+#btn-login {
+    height: 45px;
+    width: 70%;
+    border-radius: 5px;
+    background: #0C5B62;
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: 0.6;
+    color: white;
+    transition: 0.3s;
+}
+
+#btn-login:hover {
+    opacity: 1;
+}
+
+.login-form input:focus~label,
+.login-form input:valid~label {
+    top: -25px;
+}
