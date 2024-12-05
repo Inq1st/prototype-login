@@ -107,6 +107,7 @@ body {
     display: flex; 
     flex-direction: row;
     justify-content: flex-start;
+    margin: 10px;
     gap: 20px; 
     width: 100%;
 
